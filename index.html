@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <title>HW9</title>
     <link rel="stylesheet" href="style.css">
-    <script src="style.css" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+    </style>
 </head>
 <body>
 
-</body>
-</html>
+<section class="box">
+    <div class="feed">
+        <form id="form" class="feed-form" action="#">
+
+            <input id="name" name="name" required minlength="2" maxlength="15" placeholder="NAME" type="text">
+
+            <input id="password" name="password" required minlength="6" maxlength="15" placeholder="PASSWORD" type="password">
+
+            <button id = "btn" class="button" type="submit">LOGIN</button>
+
+            <div class="feed-additional">
+
+                <span > Not registered?</span>
+
+                <a href="#" class="txt3"> Create an account! </a>
+            </div>
+
+        </form>
+    </div>
+</section>
